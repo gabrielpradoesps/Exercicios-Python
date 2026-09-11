@@ -1,0 +1,13 @@
+n1 = int(input("Digite a primeira nota:  "))
+n2 = int(input("Digite a segunda nota:  "))
+
+media = (n1 + n2) / 2
+
+if media < 5:
+    print("REPROVADO")
+
+elif media == 5 or media < 7:
+    print("RECUPERAÇÃO")
+
+else:
+    print("APROVADO")
